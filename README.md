@@ -21,8 +21,8 @@ tests can plug in a fake — no live cloud required. The Ruby semantics mirror t
 go get github.com/go-ruby-openstack/openstack@latest
 ```
 
-Module path `github.com/go-ruby-openstack/openstack`; go.mod floor `go 1.26`
-(matching gophercloud/v2). CGO is not used.
+Module path `github.com/go-ruby-openstack/openstack`; go.mod floor `go 1.27.1`, which is above
+gophercloud/v2's own `go 1.25.0` rather than matching it. CGO is not used.
 
 ## Usage
 
